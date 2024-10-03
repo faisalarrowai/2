@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0; /* Lighten the background color */
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Change to a more modern font */
+}
+
+.calculator {
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); /* Softer shadow */
+    background-color: #f9f9f9; /* Softer background color */
+    padding: 20px;
+    max-width: 360px; /* Slightly reduce the maximum width */
+    width: 100%;
+}
+
+.calculator-screen {
+    width: 100%;
+    height: 80px;
+    border: none;
+    background-color: #333; /* Darker screen background */
+    color: #fff;
+    font-size: 2.4em;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px; /* More rounded corners */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    height: 60px;
+    font-size: 1.4em;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px; /* More rounded corners */
+    background-color: #f2f2f2; /* Light background for buttons */
+    color: #333;
+    transition: all 0.2s;
+}
+
+button.operator {
+    background-color: #f58532; /* Change operator button color */
+    color: white;
+}
+
+button.equals-sign {
+    background-color: #ff9700; /* Change equals button color */
+    color: white;
+    grid-column: span 2;
+}
+
+button.all-clear {
+    background-color: #d9534f; /* Change AC button color */
+    color: white;
+}
+
+button:hover {
+    background-color: #ccc; /* Slightly darker on hover */
+}
+
+button:active {
+    background-color: #bbb; /* Darker on active */
+}
