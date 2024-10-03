@@ -1,7 +1,7 @@
 appName: myNewCalculatorApp
 appUniqueId: faisalarrowai/myNewCalculatorApp
 description: This app is simple calculator app.
-appVersion: 1.0.9
+appVersion: 1.0.10
 appRepoUrl: https://github.com/faisalarrowai/2.git
 appIconUrl: https://storage.googleapis.com/codeboltai.appspot.com/agents/sBO8zR35KD.png
 appAuthorUserId: faisalarrowai
